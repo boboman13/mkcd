@@ -28,3 +28,9 @@ This will generate a new file named `mkcd` that contains all the available comma
 ```bash
 $ make
 ```
+
+### Lint
+It just parses for syntax errors.
+```bash
+$ make lint
+```
