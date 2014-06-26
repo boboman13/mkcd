@@ -23,6 +23,6 @@ lint: all test
 
 # Uses shell for the linter
 test:
-	sh mkcd -n
+	bash mkcd -n
 
 .PHONY: all install clean lint
