@@ -1,5 +1,6 @@
 mkcd
 =====
+[![Build Status](https://travis-ci.org/boboman13/mkcd.svg?branch=master)](https://travis-ci.org/boboman13/mkcd)
 
 > mkcd is an assortment of directory and file creation, deletion, and traversal utilities.
 
