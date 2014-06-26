@@ -1,5 +1,5 @@
 
 # Basic mkcd
-function mkcd() {
+function mkcd () {
 	mkdir -p "$@" && cd "$@";
 }
