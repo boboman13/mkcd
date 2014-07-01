@@ -10,9 +10,14 @@ Yes, the elusive `mkdir` and `cd`.
 $ mkcd mydir
 ```
 
-A recursive `cd` that will continue as long as there is only one directory (and no files) in your CWD. (Great for those Java packages)
+Recursive cd: a recursive `cd` that will continue as long as there is only one directory (and no files) in your CWD. (Great for those Java packages)
 ```bash
 $ rcd [dirname]
+```
+
+Remove current directory: a command that will remove the current directory (since `rm -rf .` does not work).
+```bash
+$ rmcd
 ```
 
 ### Installation
