@@ -1,11 +1,12 @@
 # This is the Makefile for mkcd
-FILES = (src/mkcd.sh src/rcd.sh)
+FILES = (src/mkcd.sh src/rcd.sh src/rmcd.sh)
 
 # Compile all the files to mkcd
-all: src/mkcd.sh src/rcd.sh
+all: src/mkcd.sh src/rcd.sh src/rmcd.sh
 	touch mkcd
 	cat src/mkcd.sh >> mkcd
 	cat src/rcd.sh >> mkcd
+	cat src/rmcd.sh >> mkcd
 
 # Clean up local files
 clean:
